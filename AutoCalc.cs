@@ -463,18 +463,14 @@ namespace Calc
                         if (si > 0)
                         {
                             //这里是为了防止前面加了-号，负负得正，正负得负
-                            if (s[si - 1] == '+') op = "-";
-                            else if (s[si - 1] == '-') op = "+";
-                            else if (CalcIsOp(s[si - 1]))
-                            {
-                                //负号
-                                continue;
-                            }
-                            else op = "-";
+                            //if (s[si - 1] == '+') op = "-";
+                            //else if (s[si - 1] == '-') op = "+";
+                            //else 
+                            if (!CalcIsOp(s[si - 1]))
+                                op = "-";
                         }
                         else op = "-";
                     }
-
                     //如果上一个运算符的位置-当前位置大于0
                     if (si - ss > 0)
                     {

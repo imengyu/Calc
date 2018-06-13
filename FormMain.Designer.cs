@@ -55,7 +55,11 @@
             this.数字键盘开启ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.数字键盘关闭ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.函数绘制窗口ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.清空历史记录ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.测试ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.退出ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.关于ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.所有支持的函数ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.帮助关于ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -94,10 +98,9 @@
             this.label5 = new System.Windows.Forms.Label();
             this.button37 = new System.Windows.Forms.Button();
             this.textBoxEnter = new System.Windows.Forms.ComboBox();
-            this.清空历史记录ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.退出ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panel_numpad.SuspendLayout();
@@ -368,12 +371,40 @@
             this.函数绘制窗口ToolStripMenuItem.Text = "函数绘制窗口";
             this.函数绘制窗口ToolStripMenuItem.Click += new System.EventHandler(this.函数绘制窗口ToolStripMenuItem_Click);
             // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(149, 6);
+            // 
+            // 清空历史记录ToolStripMenuItem
+            // 
+            this.清空历史记录ToolStripMenuItem.Name = "清空历史记录ToolStripMenuItem";
+            this.清空历史记录ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.清空历史记录ToolStripMenuItem.Text = "清空历史记录";
+            this.清空历史记录ToolStripMenuItem.Click += new System.EventHandler(this.清空历史记录ToolStripMenuItem_Click);
+            // 
             // 测试ToolStripMenuItem
             // 
+            this.测试ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem2,
+            this.toolStripMenuItem3,
+            this.toolStripMenuItem4});
             this.测试ToolStripMenuItem.Name = "测试ToolStripMenuItem";
             this.测试ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.测试ToolStripMenuItem.Text = "测试";
             this.测试ToolStripMenuItem.Click += new System.EventHandler(this.测试ToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(149, 6);
+            // 
+            // 退出ToolStripMenuItem
+            // 
+            this.退出ToolStripMenuItem.Name = "退出ToolStripMenuItem";
+            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.退出ToolStripMenuItem.Text = "退出";
+            this.退出ToolStripMenuItem.Click += new System.EventHandler(this.退出ToolStripMenuItem_Click);
             // 
             // 关于ToolStripMenuItem
             // 
@@ -778,29 +809,24 @@
             this.textBoxEnter.TabIndex = 28;
             this.textBoxEnter.SelectedIndexChanged += new System.EventHandler(this.textBoxEnter_SelectedIndexChanged);
             // 
-            // 清空历史记录ToolStripMenuItem
+            // toolStripMenuItem2
             // 
-            this.清空历史记录ToolStripMenuItem.Name = "清空历史记录ToolStripMenuItem";
-            this.清空历史记录ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.清空历史记录ToolStripMenuItem.Text = "清空历史记录";
-            this.清空历史记录ToolStripMenuItem.Click += new System.EventHandler(this.清空历史记录ToolStripMenuItem_Click);
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem2.Text = "1";
+            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
-            // toolStripSeparator1
+            // toolStripMenuItem3
             // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(149, 6);
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem3.Text = "2";
             // 
-            // 退出ToolStripMenuItem
+            // toolStripMenuItem4
             // 
-            this.退出ToolStripMenuItem.Name = "退出ToolStripMenuItem";
-            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.退出ToolStripMenuItem.Text = "退出";
-            this.退出ToolStripMenuItem.Click += new System.EventHandler(this.退出ToolStripMenuItem_Click);
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(149, 6);
+            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem4.Text = "3";
             // 
             // FormMain
             // 
@@ -924,6 +950,9 @@
         private System.Windows.Forms.ToolStripMenuItem 清空历史记录ToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripMenuItem 退出ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
     }
 }
 

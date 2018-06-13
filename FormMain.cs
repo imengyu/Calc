@@ -588,6 +588,11 @@ namespace Calc
             }
         }
 
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            textBoxEnter.Text = "3 * (2 + (3 - 6))"; 
+        }
+
 
 
 
