@@ -58,6 +58,9 @@
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.清空历史记录ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.测试ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.退出ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.关于ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -98,9 +101,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.button37 = new System.Windows.Forms.Button();
             this.textBoxEnter = new System.Windows.Forms.ComboBox();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panel_numpad.SuspendLayout();
@@ -188,7 +188,7 @@
             this.radio_d.Name = "radio_d";
             this.radio_d.Size = new System.Drawing.Size(89, 16);
             this.radio_d.TabIndex = 10;
-            this.radio_d.Text = "使用 角度值";
+            this.radio_d.Text = "使用 角度制";
             this.radio_d.UseVisualStyleBackColor = true;
             this.radio_d.CheckedChanged += new System.EventHandler(this.radio_d_CheckedChanged);
             // 
@@ -345,7 +345,7 @@
             this.数字键盘开启ToolStripMenuItem,
             this.数字键盘关闭ToolStripMenuItem});
             this.数字键盘ToolStripMenuItem.Name = "数字键盘ToolStripMenuItem";
-            this.数字键盘ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.数字键盘ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.数字键盘ToolStripMenuItem.Text = "数字键盘";
             // 
             // 数字键盘开启ToolStripMenuItem
@@ -367,19 +367,19 @@
             // 函数绘制窗口ToolStripMenuItem
             // 
             this.函数绘制窗口ToolStripMenuItem.Name = "函数绘制窗口ToolStripMenuItem";
-            this.函数绘制窗口ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.函数绘制窗口ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.函数绘制窗口ToolStripMenuItem.Text = "函数绘制窗口";
             this.函数绘制窗口ToolStripMenuItem.Click += new System.EventHandler(this.函数绘制窗口ToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(149, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(145, 6);
             // 
             // 清空历史记录ToolStripMenuItem
             // 
             this.清空历史记录ToolStripMenuItem.Name = "清空历史记录ToolStripMenuItem";
-            this.清空历史记录ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.清空历史记录ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.清空历史记录ToolStripMenuItem.Text = "清空历史记录";
             this.清空历史记录ToolStripMenuItem.Click += new System.EventHandler(this.清空历史记录ToolStripMenuItem_Click);
             // 
@@ -390,19 +390,38 @@
             this.toolStripMenuItem3,
             this.toolStripMenuItem4});
             this.测试ToolStripMenuItem.Name = "测试ToolStripMenuItem";
-            this.测试ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.测试ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.测试ToolStripMenuItem.Text = "测试";
             this.测试ToolStripMenuItem.Click += new System.EventHandler(this.测试ToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(83, 22);
+            this.toolStripMenuItem2.Text = "1";
+            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
+            // 
+            // toolStripMenuItem3
+            // 
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(83, 22);
+            this.toolStripMenuItem3.Text = "2";
+            // 
+            // toolStripMenuItem4
+            // 
+            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(83, 22);
+            this.toolStripMenuItem4.Text = "3";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(149, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(145, 6);
             // 
             // 退出ToolStripMenuItem
             // 
             this.退出ToolStripMenuItem.Name = "退出ToolStripMenuItem";
-            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.退出ToolStripMenuItem.Text = "退出";
             this.退出ToolStripMenuItem.Click += new System.EventHandler(this.退出ToolStripMenuItem_Click);
             // 
@@ -808,25 +827,6 @@
             this.textBoxEnter.Size = new System.Drawing.Size(398, 20);
             this.textBoxEnter.TabIndex = 28;
             this.textBoxEnter.SelectedIndexChanged += new System.EventHandler(this.textBoxEnter_SelectedIndexChanged);
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
-            this.toolStripMenuItem2.Text = "1";
-            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
-            // 
-            // toolStripMenuItem3
-            // 
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
-            this.toolStripMenuItem3.Text = "2";
-            // 
-            // toolStripMenuItem4
-            // 
-            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
-            this.toolStripMenuItem4.Text = "3";
             // 
             // FormMain
             // 
