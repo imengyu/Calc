@@ -39,7 +39,7 @@ namespace Calc
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("http://github.com/717021/autocalc");
+            System.Diagnostics.Process.Start("http://github.com/717021/calc");
         }
     }
 }
