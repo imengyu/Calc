@@ -11,14 +11,14 @@ C# 自动算式计算器 A automatic calculator in CSharp
 </br>
 软件支持多级括号嵌套，比如3\*(2+(3-6)\*2) 先计算3-6=-3，再计算-3\*2=-6，再计算2+-6=-4，再计算3\*-4=-12
 </br>
-
-This is a software that can automatically calculate the result based on user input formula.
 </br>
-It is currently supporting the calculation within the range of real numbers, and the operations supported include addition (+), subtraction (-), multiplication (* or x), division (/ / or), power operation (^), factorial (!).
+This is a software that can automatically calculate the result based on user input formula.</br>
 </br>
-Also supports mathematical functions, including sine, cosine, tangent, logarithm, such as sin (90) =1 (angle). A hybrid operation that supports the above operations.
+It is currently supporting the calculation within the range of real numbers, and the operations supported include addition (+), subtraction (-), multiplication (* or x), division (/ or ÷), power operation (^), factorial (!).
 </br>
-Software supports multi-level nesting brackets, for example, 3* (2+ (3-6) *2) first calculates 3-6=-3, then calculates -3*2=-6, then calculates 2+-6=-4, then calculates 3*-4=-12.
+It also supports mathematical functions, including sine, cosine, tangent, logarithm, such as sin(90)=1 (angle). A hybrid operation that supports the above operations.
+</br>
+Software supports multi-level nesting brackets, for example, 3* (2+ (3-6) *2) first calculates 3-6=-3, then calculates -3*2=-6, and then calculates 2+-6=-4, at last calculates 3*-4=-12.
 </br>
 
 ***
